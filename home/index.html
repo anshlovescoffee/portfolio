@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../index.css">
+</head>
+    <body>
+        <script src="../transition.js"></script>
+        <div id="transition-screen">
+            <video id="transition-video" src="../resources/transition.mp4" autoplay muted></video>
+        </div>
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="../resources/vhsvid.mp4" type="video/mp4">
+            </video>
+            <div class="back-button">
+                <button class="glitchy-button" onclick="transition('/')">&lt; back</button>
+            </div>
+            <div class="home-button">
+                <button class="glitchy-button" onclick="transition('/home/aboutme/index.html')">About Me ></button>
+                <button class="glitchy-button" onclick="transition('/home/projects/index.html')">Projects ></button>
+                <button class="glitchy-button" onclick="transition('/home/skills/index.html')">Skills ></button>
+                <button class="glitchy-button" onclick="transition('/home/resume/index.html')">Resume ></button>
+
+            </div>
+        </div>
+
+    </body>
+</html>
