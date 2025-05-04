@@ -192,3 +192,13 @@ video {
     margin: 0 0px;  /* Space between stars */
 
   }
+
+  .resume {
+    z-index: 3;
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
